@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*returns an integer value of 0 to indicate successful program execution.*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 puts("Programming is like building a multilingual puzzle");
