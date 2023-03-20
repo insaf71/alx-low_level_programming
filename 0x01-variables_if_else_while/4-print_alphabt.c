@@ -20,5 +20,5 @@ for (low = 'a'; low <= 'z'; low++)
 	}
 }
 putchar('\n');
-return(0);
+return (0);
 }
