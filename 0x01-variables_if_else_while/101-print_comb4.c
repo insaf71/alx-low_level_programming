@@ -20,9 +20,9 @@ for (i = 0; i < 10; i++)
 		{
 			if (i < j && j < k)
 			{
-				putchar(i +'0');
-				putchar(j +'0');
-				putchar(k +'0');
+				putchar(i + '0');
+				putchar(j + '0');
+				putchar(k + '0');
 				if (i + j + k != 24)
 				{
 					putchar(',');
@@ -32,5 +32,6 @@ for (i = 0; i < 10; i++)
 		}
 	}
 }
+putchar('\n');
 return (0);
 }
