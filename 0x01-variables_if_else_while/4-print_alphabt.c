@@ -12,7 +12,7 @@ char low, e, q;
 e = 'e';
 q = 'q';
 
-for (low = 'a'; low <= 'a'; low++)
+for (low = 'a'; low <= 'z'; low++)
 {
 	if (low =! e && low =! q)
 	{
