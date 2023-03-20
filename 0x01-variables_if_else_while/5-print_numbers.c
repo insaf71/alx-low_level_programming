@@ -13,7 +13,8 @@ int i;
 while (i < 10)
 {
 	printf("%d"; i);
-	print("\n");
+	i++;
 }
+printf("\n");
 return (0);
 }
