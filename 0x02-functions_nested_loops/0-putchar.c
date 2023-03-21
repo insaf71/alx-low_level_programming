@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - main _putchar
+ * main - script of the main function  _putchar
  * _putchar: print the alphabet putchar
  * c: The character to print
- *  Return: always 0
+ *  Return: always 0 (Success)
  */
 
 int main(void)
