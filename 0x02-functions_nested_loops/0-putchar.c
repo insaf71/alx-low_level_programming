@@ -1,15 +1,12 @@
 #include "main.h"
-
 /**
- * main - script of the main function
- * _putchar: print the alphabet putchar
- * c: The character to print
- *  Return: always 0 (Success)
+ * main - print _putchar
+ * followed by a new line
+ * Return : 0
  */
 
 int main(void)
 {
-	_putchar("_");
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
