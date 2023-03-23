@@ -6,14 +6,14 @@
  * Return: 1 for upper letter or 0 for anything else
  */
 
-int _isupper(int c) 
+int _isupper(int c)
 {
-    if (c >= 'A' && c <= 'Z') 
-    {
-        return (1);
-    }
-    else
-    {
-        return (0);
-    }
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (0);
+	}
+	else
+	{
+		return (0);
+	}
 }
