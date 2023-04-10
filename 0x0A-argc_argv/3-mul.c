@@ -8,7 +8,7 @@
  */
 
 int _atoi(char *s)
-{	
+{
 	int i, d, n, len, f, digit;
 
 	i = 0;
@@ -22,12 +22,12 @@ int _atoi(char *s)
 	f = 0;
 
 	digit = 0;
-		
+
 	while (s[len] != '\0')
 
 		len++;
-		
-	while (i < len && f == 0)	
+
+	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
 
@@ -42,7 +42,7 @@ int _atoi(char *s)
 				digit = -digit;
 
 			n = n * 10 + digit;
-			
+
 			f = 1;
 
 			if (s[i + 1] < '0' || s[i + 1] > '9')
@@ -57,7 +57,7 @@ int _atoi(char *s)
 
 	return (n);
 }
-		
+
 /**
  * main - multiplies two numbers
  * @argc: number of arguments
@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
 	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
-		return (1);	
+		return (1);
 	}
 	num1 = _atoi(argv[1]);
 
@@ -83,4 +83,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", result);
 	return (0);
 }
-
